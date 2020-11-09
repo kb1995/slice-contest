@@ -1,0 +1,59 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "FeatureGrid",
+    "primary": {
+      "subheading": "A text of type \"\" that conveys ",
+      "title": [
+        {
+          "type": "heading1",
+          "text": "repurpose distributed models",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "enable bricks-and-clicks interfaces",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": { "width": 900, "height": 500 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/e715a30d-4dbd-4960-8343-7ebdaeef1da8_qKM6rVckY3c.jpg?w=900&h=500"
+        },
+        "title": "A text of type \"\" that conveys ",
+        "description": "A text of type \"\" that conveys "
+      },
+      {
+        "image": {
+          "dimensions": { "width": 900, "height": 500 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/679c89df-30db-490c-a287-f66348ac8d71_BocBGm1zoOw.jpg?w=900&h=500"
+        },
+        "title": "A text of type \"\" that conveys ",
+        "description": "A text of type \"\" that conveys "
+      },
+      {
+        "image": {
+          "dimensions": { "width": 900, "height": 500 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/15c70ce3-fa6c-4951-8ce9-269d6e8263b2_1-dAxyaDXf8.jpg?w=900&h=500"
+        },
+        "title": "A text of type \"\" that conveys ",
+        "description": "A text of type \"\" that conveys "
+      }
+    ],
+    "slice_type": "feature_grid"
+  }
+]

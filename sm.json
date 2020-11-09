@@ -1,3 +1,7 @@
 {
-  "libraries": ["@/slices"]
+  "libraries": [
+    "@/slices"
+  ],
+  "apiEndpoint": "https://kris-slice-machine.cdn.prismic.io/api/v2",
+  "storybook": "http://localhost:8888"
 }
