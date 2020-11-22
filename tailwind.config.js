@@ -1,5 +1,9 @@
 module.exports = {
-  purge: [],
+  purge: [
+    "./components/**/*.{js,jsx}",
+    "./pages/**/*.{js,jsx}",
+    "./slices/**/*.{js,jsx}",
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     container: {
