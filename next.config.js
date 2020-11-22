@@ -1,3 +1,4 @@
-const withTM = require("next-transpile-modules")(["next-slicezone"]);
-
+const withTM = require("next-transpile-modules")(["next-slicezone"]).push({
+  distDir: "build",
+});
 module.exports = withTM();
