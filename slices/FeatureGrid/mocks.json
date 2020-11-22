@@ -6,18 +6,17 @@
     "version": "sktwi1xtmkfgx8626",
     "description": "FeatureGrid",
     "primary": {
-      "subheading": "A text of type \"\" that conveys ",
       "title": [
         {
           "type": "heading1",
-          "text": "repurpose distributed models",
+          "text": "How will slice machine impact you as a developer?",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "enable bricks-and-clicks interfaces",
+          "text": "Here are only some of the things that will change once you convert your website to slice machine. More coming soon!",
           "spans": []
         }
       ]
@@ -28,30 +27,30 @@
           "dimensions": { "width": 900, "height": 500 },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.prismic.io/important-sm-images/e715a30d-4dbd-4960-8343-7ebdaeef1da8_qKM6rVckY3c.jpg?w=900&h=500"
+          "url": "https://images.prismic.io/kris-slice-machine/534d3a52-cfd2-492d-898a-70661345d63c_codepen.png?auto=compress,format"
         },
-        "title": "A text of type \"\" that conveys ",
-        "description": "A text of type \"\" that conveys "
+        "title": "The truth lives in code",
+        "description": "No more jumping between Prismic & your code."
       },
       {
         "image": {
           "dimensions": { "width": 900, "height": 500 },
-          "alt": "Placeholder image",
+          "alt": "Screenshots",
           "copyright": null,
-          "url": "https://images.prismic.io/important-sm-images/679c89df-30db-490c-a287-f66348ac8d71_BocBGm1zoOw.jpg?w=900&h=500"
+          "url": "https://images.prismic.io/kris-slice-machine/534d3a52-cfd2-492d-898a-70661345d63c_codepen.png?auto=compress,format"
         },
-        "title": "A text of type \"\" that conveys ",
-        "description": "A text of type \"\" that conveys "
+        "title": "Screenshots",
+        "description": "No more icons, it's time to take beautiful preview of your slices"
       },
       {
         "image": {
           "dimensions": { "width": 900, "height": 500 },
-          "alt": "Placeholder image",
+          "alt": "Shared slices",
           "copyright": null,
-          "url": "https://images.prismic.io/important-sm-images/15c70ce3-fa6c-4951-8ce9-269d6e8263b2_1-dAxyaDXf8.jpg?w=900&h=500"
+          "url": "https://images.prismic.io/kris-slice-machine/534d3a52-cfd2-492d-898a-70661345d63c_codepen.png?auto=compress,format"
         },
-        "title": "A text of type \"\" that conveys ",
-        "description": "A text of type \"\" that conveys "
+        "title": "Shared slices",
+        "description": "Slices are updated across all of your custom types"
       }
     ],
     "slice_type": "feature_grid"

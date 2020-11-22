@@ -1,15 +1,15 @@
 {
-  "id": "feature_grid",
+  "id": "hero_section",
   "type": "SharedSlice",
-  "name": "FeatureGrid",
-  "description": "FeatureGrid",
+  "name": "HeroSection",
+  "description": "HeroSection",
   "variations": [
     {
       "id": "default-slice",
       "name": "Default slice",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "FeatureGrid",
+      "description": "HeroSection",
       "primary": {
         "title": {
           "type": "StructuredText",
@@ -20,40 +20,37 @@
           }
         },
         "description": {
+          "type": "StructuredText",
           "config": {
+            "single": "paragraph",
             "label": "Description",
-            "placeholder": "A nice description of your feature!",
-            "allowTargetBlank": true,
-            "single": "paragraph"
+            "placeholder": "A nice description of your feature"
+          }
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
           },
-          "type": "StructuredText"
+          "type": "Image"
         }
       },
       "items": {
-        "image": {
-          "type": "Image",
+        "link": {
           "config": {
-            "id": "image",
-            "label": "",
-            "constraint": {},
-            "thumbnails": []
-          }
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
         },
-        "title": {
-          "type": "Text",
+        "ctaText": {
           "config": {
-            "label": "",
-            "id": "title",
+            "label": "ctaText",
             "placeholder": ""
-          }
-        },
-        "description": {
-          "type": "Text",
-          "config": {
-            "label": "",
-            "id": "description",
-            "placeholder": ""
-          }
+          },
+          "type": "Text"
         }
       }
     }

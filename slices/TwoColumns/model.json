@@ -1,15 +1,15 @@
 {
-  "id": "feature_grid",
+  "id": "two_columns",
   "type": "SharedSlice",
-  "name": "FeatureGrid",
-  "description": "FeatureGrid",
+  "name": "TwoColumns",
+  "description": "TwoColumns",
   "variations": [
     {
       "id": "default-slice",
       "name": "Default slice",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "FeatureGrid",
+      "description": "TwoColumns",
       "primary": {
         "title": {
           "type": "StructuredText",
@@ -22,36 +22,19 @@
         "description": {
           "config": {
             "label": "Description",
-            "placeholder": "A nice description of your feature!",
+            "placeholder": "",
             "allowTargetBlank": true,
-            "single": "paragraph"
+            "multi": "preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl,paragraph"
           },
           "type": "StructuredText"
         }
       },
       "items": {
-        "image": {
-          "type": "Image",
-          "config": {
-            "id": "image",
-            "label": "",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "title": {
+        "listItem": {
           "type": "Text",
           "config": {
             "label": "",
-            "id": "title",
-            "placeholder": ""
-          }
-        },
-        "description": {
-          "type": "Text",
-          "config": {
-            "label": "",
-            "id": "description",
+            "id": "listItem",
             "placeholder": ""
           }
         }

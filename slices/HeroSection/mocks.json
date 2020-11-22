@@ -1,0 +1,42 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "HeroSection",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "We ❤ Prismic!",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "This is an appreciation website for Prismic and an showcase for the new upcoming update - Slice Machine!",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": { "width": 900, "height": 500 },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/kris-slice-machine/07af3a58-028c-498b-92eb-557951d00178_6aed8a95-17e2-4a79-b563-f3b452ceccfe_19fb6b50-6638-4415-a675-448566a30bfa_DSC_4716%2B2.jpg?auto=compress,format"
+      }
+    },
+    "items": [
+      {
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
+        "ctaText": "Prismic"
+      },
+      {
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
+        "ctaText": "Docs"
+      }
+    ],
+    "slice_type": "hero_section"
+  }
+]

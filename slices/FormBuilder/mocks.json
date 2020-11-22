@@ -1,0 +1,48 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "FormBuilder",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Prismic form builder",
+          "spans": []
+        }
+      ],
+      "subtitle": [
+        {
+          "type": "paragraph",
+          "text": "This is one of my favourite slices I have come up with. Provide a URL to a Formspree form, then build a custom form - within Prismic!",
+          "spans": []
+        }
+      ],
+      "buttonCta": "Submit",
+      "formUrl": "https://formspree.io/f/mwkwokyw"
+    },
+    "items": [
+      {
+        "type": "input",
+        "name": "Name",
+        "label": "Name",
+        "placeholder": "Your name..."
+      },
+      {
+        "type": "input",
+        "name": "email",
+        "label": "email",
+        "placeholder": "ilove@prismic.io"
+      },
+      {
+        "type": "textarea",
+        "name": "message",
+        "label": "Let us know why you love Prismic",
+        "placeholder": "5000 word essay on why you love Prismic"
+      }
+    ],
+    "slice_type": "form_builder"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ResourcesSection",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Couple of resources for Prismic newbies",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "title": "Prismic website",
+        "description": [
+          {
+            "type": "heading1",
+            "text": "Here you can find a general info regarding Prismic as well as sign up.",
+            "spans": []
+          }
+        ],
+        "ctaText": "Visit website",
+        "ctaLink": { "link_type": "Web", "url": "https://prismic.io/" }
+      },
+      {
+        "title": "Slice machine",
+        "description": [
+          {
+            "type": "heading1",
+            "text": "Want to learn how I built this website. Check out their Slice machine website and docs",
+            "spans": []
+          }
+        ],
+        "ctaText": "Visit Website",
+        "ctaLink": { "link_type": "Web", "url": "https://slicemachine.dev" }
+      },
+      {
+        "title": "PDF download",
+        "description": [
+          {
+            "type": "heading1",
+            "text": "I don't know, just wanted to show off that you can download PDFs with this button",
+            "spans": []
+          }
+        ],
+        "ctaText": "PDF download",
+        "ctaLink": {
+          "link_type": "Media",
+          "url": "https://kris-slice-machine.cdn.prismic.io/kris-slice-machine/4bbb4f6a-4935-45eb-8422-78f5803cebe9_30-mental-models-ness-labs.pdf"
+        }
+      }
+    ],
+    "slice_type": "resources_section"
+  }
+]

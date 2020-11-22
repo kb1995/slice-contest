@@ -1,0 +1,83 @@
+{
+  "id": "form_builder",
+  "type": "SharedSlice",
+  "name": "FormBuilder",
+  "description": "FormBuilder",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FormBuilder",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "subtitle": {
+          "config": {
+            "label": "Subtitle",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "buttonCta": {
+          "config": {
+            "label": "Button CTA",
+            "placeholder": "What should the submit button say?"
+          },
+          "type": "Text"
+        },
+        "formUrl": {
+          "config": {
+            "label": "Form URL",
+            "placeholder": "eg. formspree form"
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "type": {
+          "config": {
+            "label": "Type",
+            "placeholder": "What type of input it should render",
+            "default_value": "",
+            "options": [
+              "input",
+              "textarea"
+            ]
+          },
+          "type": "Select"
+        },
+        "name": {
+          "config": {
+            "label": "Name",
+            "placeholder": "for the name attribute.."
+          },
+          "type": "Text"
+        },
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": "Label"
+          },
+          "type": "Text"
+        },
+        "placeholder": {
+          "config": {
+            "label": "Placeholder",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

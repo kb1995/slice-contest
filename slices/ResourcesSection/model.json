@@ -1,15 +1,15 @@
 {
-  "id": "feature_grid",
+  "id": "resources_section",
   "type": "SharedSlice",
-  "name": "FeatureGrid",
-  "description": "FeatureGrid",
+  "name": "ResourcesSection",
+  "description": "ResourcesSection",
   "variations": [
     {
       "id": "default-slice",
       "name": "Default slice",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "FeatureGrid",
+      "description": "ResourcesSection",
       "primary": {
         "title": {
           "type": "StructuredText",
@@ -18,42 +18,39 @@
             "label": "Title",
             "placeholder": "This is where it all begins..."
           }
+        }
+      },
+      "items": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          },
+          "type": "Text"
         },
         "description": {
           "config": {
             "label": "Description",
-            "placeholder": "A nice description of your feature!",
+            "placeholder": "",
             "allowTargetBlank": true,
-            "single": "paragraph"
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
           },
           "type": "StructuredText"
-        }
-      },
-      "items": {
-        "image": {
-          "type": "Image",
-          "config": {
-            "id": "image",
-            "label": "",
-            "constraint": {},
-            "thumbnails": []
-          }
         },
-        "title": {
-          "type": "Text",
+        "ctaText": {
           "config": {
-            "label": "",
-            "id": "title",
+            "label": "ctaText",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
-        "description": {
-          "type": "Text",
+        "ctaLink": {
           "config": {
-            "label": "",
-            "id": "description",
-            "placeholder": ""
-          }
+            "label": "ctaLink",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
         }
       }
     }
