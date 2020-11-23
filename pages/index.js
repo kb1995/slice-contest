@@ -5,7 +5,7 @@ import { useGetStaticProps } from "next-slicezone/hooks";
 import resolver from "../sm-resolver.js";
 
 const Page = (props) => (
-  <div className="mb-8 grid grid-cols-1 gap-y-12 lg:gap-y-16">
+  <div className="mb-8 grid grid-cols-1 gap-y-12 lg:gap-y-16 ">
     <SliceZone {...props} resolver={resolver} />
   </div>
 );
