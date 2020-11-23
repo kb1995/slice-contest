@@ -182,7 +182,7 @@ To keep track of your progress and to be sure not to miss anything here's a simp
 
 - [x] My library contains at least **5 different slices**
 - [x] I have updated the [LICENSE](./LICENSE) to credit myself for my library
-- [ ] The Storybook documentation is hosted here: <!-- https://example.com -->
+- [x] The Storybook documentation is hosted here: [Storybook](https://slice-contest-storybook.vercel.app/?path=/story/featuregrid--default-slice)
 - [x] My library does not contain any non-public licensed assets
 
 > ☝️ For comprehensive rules refer to the contest [blog post](https://prismic.io/blog/slice-contest?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost).
