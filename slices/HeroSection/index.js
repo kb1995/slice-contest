@@ -10,8 +10,8 @@ const MySlice = ({ slice }) => {
   const image = slice.primary.image;
   const items = slice.items;
   return (
-    <section>
-      <div className="relative mx-auto pt-12 pb-8 text-center lg:py-48 lg:text-left">
+    <section className="relative">
+      <div className="mx-auto pt-12 pb-8 text-center lg:py-48 lg:text-left">
         <Container>
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl font-bold sm:text-5xl xl:text-6xl tracking-wider">
