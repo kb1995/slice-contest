@@ -16,7 +16,7 @@
       "description": [
         {
           "type": "paragraph",
-          "text": "This is an appreciation website for Prismic and an showcase for the new upcoming update - Slice Machine!",
+          "text": "This is an appreciation website for Prismic and a showcase for the new upcoming update - Slice Machine!",
           "spans": []
         }
       ],
@@ -29,12 +29,25 @@
     },
     "items": [
       {
-        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
-        "ctaText": "Prismic"
+        "link": {
+          "link_type": "Web",
+          "url": "https://github.com/kb1995/slice-contest"
+        },
+        "ctaText": "Github"
       },
       {
-        "link": { "link_type": "Web", "url": "https://slicemachine.dev" },
-        "ctaText": "Docs"
+        "link": {
+          "link_type": "Web",
+          "url": "https://slice-contest-storybook.vercel.app/?path=/story/featuregrid--default-slice"
+        },
+        "ctaText": "Storybook"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slice-contest.vercel.app/"
+        },
+        "ctaText": "Demo"
       }
     ],
     "slice_type": "hero_section"

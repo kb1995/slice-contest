@@ -16,7 +16,7 @@
       "subtitle": [
         {
           "type": "paragraph",
-          "text": "This is one of my favourite slices I have come up with. Provide a URL to a Formspree form, then build a custom form - within Prismic!",
+          "text": "This is one of my favourite slices I have come up with. Add a Formspree URL, then build a custom form with custom inputs, textareas, labels & placeholders - within Prismic!",
           "spans": []
         }
       ],

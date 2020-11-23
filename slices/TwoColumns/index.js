@@ -13,7 +13,7 @@ const TwoColumns = ({ slice }) => {
       <SectionHeader title={title} />
       <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-12">
         <div className="md:w-1/2">
-          <div className="text-black">
+          <div className="prose">
             <RichText render={description} />
           </div>
         </div>

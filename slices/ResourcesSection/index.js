@@ -20,14 +20,14 @@ const Resources = ({ slice }) => {
             <div key={`resources-${idx}`}>
               {console.log(item)}
 
-              <div className="mt-4 text-xl leading-7 font-semibold text-gray-900">
+              <div className="text-xl leading-7 font-semibold text-gray-900">
                 {title}
               </div>
-              <div className="mt-3 text-base leading-6 text-gray-700">
+              <div className="mt-2 text-base leading-6 text-gray-700">
                 <RichText render={description} />
               </div>
 
-              <div className="mt-6">
+              <div className="mt-6 w-3/5">
                 {ctaLink && ctaLink.link_type == "Web" && (
                   <Button
                     href={ctaLink.url}
