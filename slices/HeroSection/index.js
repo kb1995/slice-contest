@@ -11,7 +11,7 @@ const MySlice = ({ slice }) => {
   const items = slice.items;
   return (
     <section>
-      <div className="mx-auto pt-12 pb-8 text-center lg:py-48 lg:text-left">
+      <div className="relative mx-auto pt-12 pb-8 text-center lg:py-48 lg:text-left">
         <Container>
           <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
             <h1 className="text-4xl font-bold sm:text-5xl xl:text-6xl tracking-wider">
@@ -36,7 +36,7 @@ const MySlice = ({ slice }) => {
           </div>
         </Container>
       </div>
-      <div className="relative w-full h-48 md:h-64 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+      <div className="overflow-hidden relative w-full h-48 md:h-64 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
         <img
           className="absolute insert-0 w-full h-full object-cover"
           src={image.url}
